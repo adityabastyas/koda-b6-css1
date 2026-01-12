@@ -13,9 +13,9 @@ Responsive layout dengan **media query**
 menggunakan `block` & `inline-block`
 Tampilan berbeda untuk:
 
-- small 640 px
-- medium 768 px
-- large 1024 px
+- small >= 640 px
+- medium >= 768 px
+- large >= 1024 px
 
 ---
 
