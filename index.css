@@ -5,27 +5,34 @@
 }
 
 header {
-  background-color: antiquewhite;
-  padding: 20px 50px;
+  background-color: rgb(43, 42, 41);
+  color: azure;
+}
+
+header .title-menu {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 .nav-list {
   list-style-type: none;
-  margin-bottom: 15px;
 }
 .nav-list a {
-  padding: 5px;
+  padding: 10px 0;
   text-decoration: none;
-  background-color: aqua;
-  border-radius: 4px;
-  border: 1px solid black;
+  border: 1px solid gray;
   cursor: pointer;
   color: white;
   display: block;
   text-align: center;
+  font-size: 16px;
 }
 @media (min-width: 640px) {
   .nav-ul {
-    padding-top: 5px;
+    padding: 20px;
+  }
+  .title-menu {
+    display: none;
   }
   li.nav-list {
     display: inline-block;
@@ -36,9 +43,9 @@ header {
 
   .nav-list a {
     padding: 5px;
-    background-color: greenyellow;
+    background-color: grey;
     border-radius: 5px;
-    color: red;
+    color: wheat;
   }
 }
 
@@ -48,6 +55,10 @@ header {
     font-size: 18px;
     color: blue;
     margin-bottom: 30px;
+  }
+
+  .title-menu {
+    display: block;
   }
 
   .nav-list a {
