@@ -48,8 +48,6 @@ a.sign-in {
 
 /*background*/
 
-.profesional {
-}
 img.background {
   width: 100%;
   position: absolute;
@@ -58,7 +56,7 @@ img.background {
 .container-pro {
   position: relative;
   display: flex;
-  background-color: red;
+  color: white;
 }
 
 .pro-content {
@@ -66,11 +64,108 @@ img.background {
   flex-direction: column;
   padding-top: 150px;
   padding-left: 250px;
+  gap: 30px;
 }
 
 .pro-content > h1 {
   color: white;
   font-size: 36px;
+}
+
+.contact {
+  display: flex;
+  gap: 50px;
+}
+
+.contact a {
+  background-color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 16px;
+  color: black;
+}
+
+.contact a.us {
+  background-color: blue;
+  color: white;
+}
+
+/*our-services*/
+
+.our-services {
+  margin-top: 150px;
+}
+
+.our-services > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.our-services > div > span {
+  color: blue;
+  padding: 5px;
+  border: 1px solid burlywood;
+  background-color: cadetblue;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.our-services > div > h2 {
+  font-weight: 500;
+  font-size: 48px;
+  margin-bottom: 100px;
+}
+
+.container-article {
+  padding: 0 200px;
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article.article {
+  width: 300px;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+article.article p {
+  text-align: center;
+}
+
+/*container about*/
+
+.container-about {
+  background-color: aqua;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 70px 130px;
+}
+
+.container-about > img {
+  margin-right: 100px;
+}
+
+.container-about > div > span {
+  color: blue;
+  padding: 5px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.container-about > div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 @media (min-width: 640px) {
