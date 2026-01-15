@@ -193,6 +193,9 @@ article.article p {
   }
 }
 
+@media (min-width: 768) {
+}
+
 /* @media (min-width: 768px) {
   header {
     display: flex;
