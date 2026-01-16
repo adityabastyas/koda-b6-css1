@@ -56,6 +56,8 @@ img.background {
 .container-pro {
   position: relative;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   color: white;
 }
 
@@ -145,6 +147,7 @@ article.article p {
   background-color: aqua;
   margin-top: 50px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   color: white;
   padding: 70px 130px;
@@ -191,9 +194,20 @@ article.article p {
     border-radius: 5px;
     color: wheat;
   }
-}
 
-@media (min-width: 768) {
+  .container-about {
+    flex-wrap: nowrap;
+  }
+
+  .container-pro {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .pro-content {
+    padding-top: 150px;
+    padding-left: 250px;
+  }
 }
 
 /* @media (min-width: 768px) {
